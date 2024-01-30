@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<script type="text/javascript">
+
+    var i = 1;
+    var n = parseInt(prompt("Enter any number : "));
+    var factorial = 1;
+
+    document.write(`<h2>Factorial of ${n}..</h2>`) 
+    while(i <= n){
+        factorial = factorial * i; 
+        document.write(`<h2>${factorial}</h2>`);
+        i++;
+    }
+    document.write(`<h2>Ans : ${factorial}</h2>`);
+
+</script>
+
+</body>
+</html>
