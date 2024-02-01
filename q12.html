@@ -1,0 +1,19 @@
+<html>
+    <script type="text/javascript">
+        var n = parseInt(prompt("Enter the any number and chack number is prime are not prime : "));
+        var ans = 0;
+        var i = 2;
+        while(i<n){
+            if(n%2==0){
+                ans++;
+                break;
+            }
+            i++;
+        }
+        if(ans==0){
+            document.write(`<h2>${n} Your number is prime...</h2>`);
+        }else{
+            document.write(`<h2>${n} Your number is not prime...</h2>`);
+        }
+    </script>
+</html>

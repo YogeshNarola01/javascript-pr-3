@@ -1,0 +1,15 @@
+<html>
+    <script type="text/javascript">
+        var a = 0;
+        var b = 1;
+        var n = parseInt(prompt("Enter any number : "));
+        var sum;
+        document.write(`<h2>Fibonacci series...</h2>`);
+         for(i=1; i<=n; i++){
+            document.write(`<h2>${a}+${b}=${a}</h2>`);
+            sum = a + b ;
+            a = b ;
+            b = sum;
+         }
+    </script>
+</html>
